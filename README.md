@@ -72,6 +72,8 @@ ti --version
 
 The installer writes `ti` and `ti-drive9` to `~/.ti/bin` without sudo. Add the `export PATH=...` line to your shell profile to make it persistent.
 
+The macOS/Linux installer downloads both binaries and their checksum files from CDN-fronted sources and verifies the checksums before installation.
+
 Windows users:
 
 ```powershell
